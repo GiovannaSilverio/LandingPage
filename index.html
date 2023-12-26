@@ -5,78 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GioCoffee</title>
     <meta name="description" content="Explore dezenas de variações da bebida favorita entre os devs ao redor do mundo! ">
+    <link rel="stylesheet" type="text/css" href="style.css" >
 </head>
 <body>
     <header>
         <nav>
-            <span>GIOCOFFEE</span>
-            <ul>
+            <span class="logo">giocoffee</span>
+            <ul class="menu">
                 <li><a>Home</a></li>
                 <li><a>Receitas</a></li>
                 <li><a>Novidades</a></li>
                 <li><a>Melhor Avaliadas</a></li>
             </ul>
-            <a>GITHUB</a>
+            <a class="github">Github</a>
         </nav>
     </header>
     <main>
-        <section>
-            <header>
-                <span>novidade</span>
-                <h1>Encontre a receita perfeita!</h1>
-                <hr/>
-                <h2>Explore dezenas de variações da bebida favorita entre os devs</h2>
+        <div class="principal">
+            <section class="hero">
+                <header class="hero-conteudo">
+                    <span class="destaque marrom">novidade</span>
+                    <h1>Encontre a receita perfeita!</h1>
+                    <hr/>
+                    <h2 class="hero-subtitulo">Explore dezenas de variações da bebida favorita entre os devs</h2>
+                </header>
+                <div class="hero-imagens-container">
+                    <figure><img src="assets/hero-banner-01.png"/></figure>
+                    <figure><img src="assets/hero-banner-02.png"/></figure>
+                    <figure><img src="assets/hero-banner-03.png"/></figure>
+                    <figure><img src="assets/hero-banner-04.png"/></figure>
+                    <figure><img src="assets/hero-banner-05.png"/></figure>
+                    <figure><img src="assets/hero-banner-06.png"/></figure>
+                    <figure><img src="assets/hero-banner-07.png"/></figure>
+                    <figure><img src="assets/hero-banner-08.png"/></figure>
+                    <figure><img src="assets/hero-banner-09.png"/></figure>
+                    <figure><img src="assets/hero-banner-010.png"/></figure>
+                    <figure><img src="assets/hero-banner-011.png"/></figure>
+                    <figure><img src="assets/hero-banner-012.png"/></figure>
+                </div>
+            </section>
+    </div>
+
+        <section class="receitas">
+            <header class="receitas-cabecalho">
+                <span class="destaque marrom">receitas</span>
+                <h2 class="receitas-titulo">Confira as ultimas receitas</h2>
+                <p class="receitas-subtitulo">Dê uma olhada nas receitas mais amadas</p>
             </header>
-            <div>
-                <figure><img src="assets/hero-banner-01.png"/></figure>
-                <figure><img src="assets/hero-banner-02.png"/></figure>
-                <figure><img src="assets/hero-banner-03.png"/></figure>
-                <figure><img src="assets/hero-banner-04.png"/></figure>
-                <figure><img src="assets/hero-banner-05.png"/></figure>
-                <figure><img src="assets/hero-banner-06.png"/></figure>
-                <figure><img src="assets/hero-banner-07.png"/></figure>
-                <figure><img src="assets/hero-banner-08.png"/></figure>
-                <figure><img src="assets/hero-banner-09.png"/></figure>
-                <figure><img src="assets/hero-banner-010.png"/></figure>
-                <figure><img src="assets/hero-banner-011.png"/></figure>
-                <figure><img src="assets/hero-banner-012.png"/></figure>
-            </div>
-        </section>
-        <section>
-            <button>
-                <img src="assets/button.svg"/>
-            </button>
-        </section>
-        <section>
-            <header>
-                <span>receitas</span>
-                <h2>Confira as ultimas receitas</h2>
-                <p>Dê uma olhada nas receitas mais amadas</p>
-            </header>
-            <div>
-                <div>
-                    <header>
-                        <div>
-                            <span>em alta🔥</span>
-                            <h3>Capuccino☕</h3>
+                <div class="receitas-card-conteiner">
+                    <div class="receitas-card">
+                        <header class="receitas-card-cabecalho">
+                            <div class="receitas-card-cabecalho-detalhes">
+                                <span class="destaque amarelo">em alta🔥</span>
+                                <h3 class="receita-titulo">Capuccino☕</h3>
+                            </div>
+                            <p class="receita-avaliacao">Extraordinario . 4/4</p>
+                        </header>
+                        <p class="receita-descricao">Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+                        <div class="receita-autor">
+                            <img src="https://avatars.githubusercontent.com/u/106760638?v=4"/>
+                            <span class="receita-autor-nome">Giovanna Silverio</span>
                         </div>
-                        <div>
-                            <p>Extraordinario . 4/4</p>
+                    </div>
+                    <div class="receitas-card">
+                        <header class="receitas-card-cabecalho">
+                            <div class="receitas-card-cabecalho-detalhes">
+                                <span class="destaque amarelo">em alta🔥</span>
+                                <h3 class="receita-titulo">Capuccino☕</h3>
+                            </div>
+                            <p class="receita-avaliacao">Extraordinario . 4/4</p>
+                        </header>
+                        <p class="receita-descricao">Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+                        <div class="receita-autor">
+                            <img src="https://avatars.githubusercontent.com/u/106760638?v=4"/>
+                            <span class="receita-autor-nome">Giovanna Silverio</span>
                         </div>
-                    </header>
-                    <p>Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
-                    <div>
-                        <img src="https://avatars.githubusercontent.com/u/106760638?v=4"/>
-                        <span>Giovanna Silverio</span>
+                    </div>
+                    <div class="receitas-card">
+                        <header class="receitas-card-cabecalho">
+                            <div class="receitas-card-cabecalho-detalhes">
+                                <span class="destaque amarelo">em alta🔥</span>
+                                <h3 class="receita-titulo">Capuccino☕</h3>
+                            </div>
+                            <p class="receita-avaliacao">Extraordinario . 4/4</p>
+                        </header>
+                        <p class="receita-descricao">Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+                        <div class="receita-autor">
+                            <img src="https://avatars.githubusercontent.com/u/106760638?v=4"/>
+                            <span class="receita-autor-nome">Giovanna Silverio</span>
+                        </div>
+                    </div>
+                    <div class="receitas-card">
+                        <header class="receitas-card-cabecalho">
+                            <div class="receitas-card-cabecalho-detalhes">
+                                <span class="destaque amarelo">em alta🔥</span>
+                                <h3 class="receita-titulo">Capuccino☕</h3>
+                            </div>
+                            <p class="receita-avaliacao">Extraordinario . 4/4</p>
+                        </header>
+                        <p class="receita-descricao">Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+                        <div class="receita-autor">
+                            <img src="https://avatars.githubusercontent.com/u/106760638?v=4"/>
+                            <span class="receita-autor-nome">Giovanna Silverio</span>
+                        </div>
+                    </div>
+                    <div class="receitas-card">
+                        <header class="receitas-card-cabecalho">
+                            <div class="receitas-card-cabecalho-detalhes">
+                                <span class="destaque amarelo">em alta🔥</span>
+                                <h3 class="receita-titulo">Capuccino☕</h3>
+                            </div>
+                            <p class="receita-avaliacao">Extraordinario . 4/4</p>
+                        </header>
+                        <p class="receita-descricao">Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+                        <div class="receita-autor">
+                            <img src="https://avatars.githubusercontent.com/u/106760638?v=4"/>
+                            <span class="receita-autor-nome">Giovanna Silverio</span>
+                        </div>
                     </div>
                 </div>
-            </div>
+   
+
         </section>
     </main>
     <footer>
-        <p>Copyright &lt;CODEFEE /&gt; 2023</p>
+        <p class="copy-footer">Copyright &lt;CODEFEE /&gt; 2023</p>
 
-        <p>Feito com muito ❤️ e café por Giovanna Silverio</p>
+        <p class="footer-autor">Feito com muito ❤️ e café por Giovanna Silverio</p>
     </footer>
 </body>
 </html>
